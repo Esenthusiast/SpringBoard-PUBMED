@@ -1,5 +1,5 @@
 from Bio import Entrez
-Entrez.email = 'esmegaisford@gmail.com'
+Entrez.email = 'youremail@email.com'
 import pandas as pd
 
 
