@@ -1,17 +1,26 @@
-# SpringBoard-PUBMED
-Springboard 
-#Current goals
-- Scrap data from pubmed
-- initial data wrangling
-    - organize into columns/table:
-        - Title
-        - Author(s)
-        - keyword(s)
-        - abstract words present or full abstract(?)
-        - publication date
-        - journal published
+## SpringBoard-PUBMED Capstone 1
+#Overview
+This project is designed to search for trends within the Pubmed Publication database.
+To start I am undergong a fishing expodition to identify if the rate of publications change throughout the year, if the rate per month- changes by year, or if within publications frequency of publication types changes by year. I am also considering if trends within publications are present (identified by word assocition within title or abstract) either by year, time of year, or within given topics.
+
+The rate of total publications on Pubmed per year is > 700,000 papers. Therefore to narrow results category we are looking at papers with the keyword "Cancer" identified by Pubmed. 
+
+#Dataset
+My dataset consists of freely available Pubmed publications from the years of 2012-2017. Using the Entrez biopython module to fetch nested datasets on publications by keyword and date sorting I was able to scrape the abstract, title, first author information, journal title and publication date (month/year) for papers. A complete scrapping by year (even within the narrowed group) was ~200,000 papers. Therefore dataframe was initially limited to ~5,000 per year. 
+
+#Initial Data Analysis:
+Normal distribution of publications? 
+
+#Topic Modeling
+
 
 #Final Goal (in progress)
+
+- identify interesting trends:
+    - Publication normalized trend by month
+    - different rates of key word use in topic/ abstract by journal? (specifically the top 10 high impact journals on the list vs low impact journals)
+    - changing word-association with research findings? common odd pairings? etc. 
+    
 
 - Produce predictive model identify trends for example:
         - how does the publication date and keyword effect impact score
@@ -22,12 +31,14 @@ Springboard
         - use regression model (R score, 0.05 varience) 
         
 Use Cases:
+
+
+
+
 People who publish want to optimize their impact 
     - timing, seasonality and/or funding
 pharmaceutical companies track trends of 
-        
-   Notes:
-  impact score defined as number of links to paper within an amount of time
+
   
           A list of UIDs (i.e. PMIDs).Abstract view, formatted in plain text.MEDLINE view, including the field indicators.The full XML of the record.
 
