@@ -20,7 +20,11 @@ Normal distribution of publications?
     - Publication normalized trend by month
     - different rates of key word use in topic/ abstract by journal? (specifically the top 10 high impact journals on the list vs low impact journals)
     - changing word-association with research findings? common odd pairings? etc. 
-    
+    - What Articles tend to have high impact? Or what articles tend to be published in high-impact journals?
+        - by keyword association
+        - by topic
+        - by title
+
 
 - Produce predictive model identify trends for example:
         - how does the publication date and keyword effect impact score
