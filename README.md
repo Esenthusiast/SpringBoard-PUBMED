@@ -1,10 +1,10 @@
 ## SpringBoard-PUBMED Capstone 1
-#Overview
+# Overview
 This project is designed to search for trends within the Pubmed Publication database.
 
 To start I am undergong a fishing expodition to identify if the rate of publications change throughout the year, if the rate per month- changes by year, or if within publications frequency of publication types changes by year. I am also considering if trends within publications are present (identified by word assocition within title or abstract) either by year, time of year, or within given topics. 
 
-#Dataset
+# Dataset
 My dataset consists of freely available Pubmed publications from the years of 2012-2017. Using the Entrez biopython module to fetch nested datasets on publications by keyword and date sorting I was able to scrape the abstract, title, first author information, journal title and publication date (month/year) for papers. A complete scrapping by year (even within the narrowed group) was ~200,000 papers. Therefore dataframe was initially limited to ~5,000 per year. 
 
 # Motivation
@@ -19,7 +19,7 @@ Therefore, it is an important question:
 
 - Are there points of human bias if what papers are published in high IFJ? Can we identify social trends in those papers over time? 
 
-#Data
+# Data
 
 1) Build a custom scraper to isolate data from Pubmed
 -  The rate of total publications on Pubmed per year is > 700,000 papers. Therefore to narrow results category we are looking at papers with the keyword "Cancer" identified by Pubmed. To consider trends over time started with publications from 2012-2017 to represent a range of time. 
