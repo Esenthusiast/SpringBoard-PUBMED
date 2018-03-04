@@ -54,7 +54,9 @@ Looking at key vocabulary words in the titles and abstract using TFDIF
         - keywords + key phrases in abstract have effect on publication date?
         - publication date have effect on impact score? overall or within specfic sub groups
         - use regression model (R score, 0.05 varience) 
-        
+
+## Final data and analysis also available on my blog at https://theenthusiasticscientist.wordpress.com/
+
 # Use Cases:
 
 People who publish want to optimize their impact in relationton to:
