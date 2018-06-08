@@ -1,8 +1,14 @@
 ## SpringBoard-PUBMED Capstone 1
-# Overview
-This project is designed to search for trends within the Pubmed Publication database.
+# Into
 
-To start I am undergong a fishing expodition to identify if the rate of publications change throughout the year, if the rate per month- changes by year, or if within publications frequency of publication types changes by year. I am also considering if trends within publications are present (identified by word assocition within title or abstract) either by year, time of year, or within given topics. 
+This is my first Capstone project for the Springboard Data Science Career Track Certification.
+This project is designed to search for trends within the Pubmed Publication database. I used extensive Data Wrangling techniques, NLP (natural langauge processing) and Data visualization. The entire project was written in python. 
+
+# Overview
+
+To start I am undergoing a fishing expodition to identify if the rate of publications change throughout the year, if the rate per month- changes by year, or if within publications frequency of publication types changes by year. I am also considering if trends within publications are present (identified by word assocition within title or abstract) either by year, time of year, or within given topics.
+
+I also used information on impact scores of the publications (or journals) each paper is present in to analyze and identify trends within word associations and impact score. Impact score is an academic and reserach industry standardized score measuring the likely accesiblity a research publication has- i.e. how many people read a given journal. Impact score is sometimes used within research as a shorthand measurment of how prestigious a publication or journal is. 
 
 # Dataset
 My dataset consists of freely available Pubmed publications from the years of 2012-2017. Using the Entrez biopython module to fetch nested datasets on publications by keyword and date sorting I was able to scrape the abstract, title, first author information, journal title and publication date (month/year) for papers. A complete scrapping by year (even within the narrowed group) was ~200,000 papers. Therefore dataframe was initially limited to ~5,000 per year. 
